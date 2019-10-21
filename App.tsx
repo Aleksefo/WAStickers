@@ -11,45 +11,43 @@
 import React, {useEffect, useState} from 'react';
 import {
   SafeAreaView,
-  StyleSheet,
   ScrollView,
   View,
   Text,
-  StatusBar,
+  StatusBar, Platform,
 } from 'react-native';
 import RNWhatsAppStickers from "react-native-whatsapp-stickers"
+import { stickerConfig } from "./src/config/stickerConfig"
 
 const App = () => {
   const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null;
   const [isWhatsAppAvailable, setIsWhatsAppAvailable] = useState(false)
 
-  const config = {
-    identifier: '',
-    name: '',
-    publisher: '',
-    trayImageFileName: '',
-    publisherEmail: '',
-    publisherWebsite: '',
-    privacyPolicyWebsite: '',
-    licenseAgreementWebsite: '',
-  }
+  const { stickers, ...packConfig } = stickerConfig
+
 
     useEffect(() => {
       RNWhatsAppStickers.isWhatsAppAvailable()
-          .then(isWhatsAppAvailable => setIsWhatsAppAvailable(isWhatsAppAvailable))
-          .catch(e => console.log(e))//todo sed a proper message about WA not available, add to Crashlytics
+          .then(isWhatsAppAvailable => {
+            if (isWhatsAppAvailable) {
+              setIsWhatsAppAvailable(true)
+              if (Platform.OS === 'ios') {
+                return RNWhatsAppStickers.createStickerPack(packConfig)
+                    .then(() => {
+                      const promises = stickers.map(item =>
+                          RNWhatsAppStickers.addSticker(item.fileName, item.emojis)
+                      )
+                      Promise.all(promises).then(() => RNWhatsAppStickers.send())
+                    })
+                    .catch(e => console.log(e))
+              }
 
-      RNWhatsAppStickers.createStickerPack(config)
-          .then(() => console.log('success'))
+              return RNWhatsAppStickers.send('myprojectstickers', 'MyProject Stickers')
+            }
+
+            return undefined
+          })
           .catch(e => console.log(e))
-
-      // RNWhatsAppStickers.addSticker('stickername.png', ['😎'])
-      //     .then(() => console.log('success'))
-      //     .catch(e => console.log(e))
-
-      // RNWhatsAppStickers.send()
-      //     .then(() => console.log('success'))
-      //     .catch(e => console.log(e))
       }, [])
 
   return (
@@ -64,7 +62,7 @@ const App = () => {
               <Text >Engine: Hermes</Text>
             </View>
           )}
-          {isWhatsAppAvailable ? <Text >Available</Text>: null}
+          {isWhatsAppAvailable ? <Text >Available</Text>: <Text >WA Not Available</Text>}
         </ScrollView>
       </SafeAreaView>
     </>
