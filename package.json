@@ -6,11 +6,15 @@
     "and": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "ac": "cd android && ./gradlew clean && cd -",
+    "emul": "cd ../../Library/Android/sdk/tools/ && ./emulator -avd Nexus_5X_API_25",
+    "pod": "cd ios && pod install && cd -"
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.2"
+    "react-native": "0.61.2",
+    "react-native-whatsapp-stickers": "^1.2.6"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

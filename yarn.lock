@@ -5029,6 +5029,11 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
 
+react-native-whatsapp-stickers@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/react-native-whatsapp-stickers/-/react-native-whatsapp-stickers-1.2.6.tgz#20be6e7a68a5b6c2a62a2be0007d46d834560b3d"
+  integrity sha512-y94XtvZ8+6IL0tzcIm9/J2b22lhPtxyjbRf9kA9ukT6bzotfmWAtdsV5S1QGUO5U4yhYD9dEIk58NNGR39mooQ==
+
 react-native@0.61.2:
   version "0.61.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.61.2.tgz#987b91b063557f8ebec803fdfea2044a24bdbe4d"
