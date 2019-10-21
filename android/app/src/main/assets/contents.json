@@ -1,0 +1,42 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.myapp",
+  "ios_app_store_link": "https://itunes.apple.com/app/myapp/id123456",
+  "sticker_packs": [
+    {
+      "identifier": "myprojectstickers",
+      "name": "MyProject Stickers",
+      "publisher": "Aleksei Fomushkin",
+      "tray_image_file": "tray_icon.png",
+      "publisher_email": "aleksefo@gmail.com",
+      "publisher_website": "https://aleksefo.github.io/",
+      "privacy_policy_website": "https://aleksefo.github.io/privacy_policy.html",
+      "license_agreement_website": "https://aleksefo.github.io/tos.html",
+      "stickers": [
+        {
+          "image_file": "pic1.webp",
+          "emojis": ["✌️"]
+        },
+        {
+          "image_file": "pic2.webp",
+          "emojis": ["😍","😻"]
+        },
+        {
+          "image_file": "pic3.webp",
+          "emojis": ["😎"]
+        },
+        {
+          "image_file": "pic4.webp",
+          "emojis": ["✌️"]
+        },
+        {
+          "image_file": "pic5.webp",
+          "emojis": ["😍","😻"]
+        },
+        {
+          "image_file": "pic6.webp",
+          "emojis": ["😎"]
+        }
+      ]
+    }
+  ]
+}
