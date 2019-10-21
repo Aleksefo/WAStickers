@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* WAStickersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WAStickersTests.m */; };
+		0777E368972946B25BA59C6F /* libPods-WAStickers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E77A98DBC50F1831018EE289 /* libPods-WAStickers.a */; };
+		0C00F13EEAAD9394B1E8D0E6 /* libPods-WAStickersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E26FCFD50F154E3259C58A3 /* libPods-WAStickersTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +18,41 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* WAStickersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WAStickersTests.m */; };
-		3C83485E55ACA9DEEE6A1751 /* libPods-WAStickers-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F7BCEEA01D7B7B4B3AE609 /* libPods-WAStickers-tvOSTests.a */; };
-		6304FD2BE681FFE49DAEF675 /* libPods-WAStickers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926E59775A393738DC8AAB11 /* libPods-WAStickers.a */; };
-		FBC028EE0953CEBA3780D7BE /* libPods-WAStickers-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E87243A9B0646B34F75B1D /* libPods-WAStickers-tvOS.a */; };
-		FE6729F2D17D25C094D6CF40 /* libPods-WAStickersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A43CF3D80EBA4691F8EE2F9 /* libPods-WAStickersTests.a */; };
+		39DD1746D8FDB9BE1239ED53 /* libPods-WAStickers-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 257834AA759AC5AC993236DB /* libPods-WAStickers-tvOSTests.a */; };
+		6CBC225B235E020F00769420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC225A235E020F00769420 /* UIKit.framework */; };
+		6CBC225D235E021F00769420 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC225C235E021F00769420 /* CoreFoundation.framework */; };
+		6CBC225F235E022A00769420 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC225E235E022A00769420 /* QuartzCore.framework */; };
+		6CBC2261235E023400769420 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC2260235E023400769420 /* AssetsLibrary.framework */; };
+		6CBC2263235E023F00769420 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC2262235E023F00769420 /* ImageIO.framework */; };
+		6CBC2265235E024800769420 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC2264235E024800769420 /* Accelerate.framework */; };
+		6CBC2267235E025100769420 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC2266235E025100769420 /* MobileCoreServices.framework */; };
+		6CBC2269235E026400769420 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC2268235E025A00769420 /* libz.tbd */; };
+		6CBC2297235E1C6400769420 /* pic4.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC228D235E1C6300769420 /* pic4.webp */; };
+		6CBC2298235E1C6400769420 /* pic4.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC228D235E1C6300769420 /* pic4.webp */; };
+		6CBC2299235E1C6400769420 /* pic3.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC228E235E1C6300769420 /* pic3.webp */; };
+		6CBC229A235E1C6400769420 /* pic3.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC228E235E1C6300769420 /* pic3.webp */; };
+		6CBC229B235E1C6400769420 /* pic1.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC228F235E1C6400769420 /* pic1.webp */; };
+		6CBC229C235E1C6400769420 /* pic1.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC228F235E1C6400769420 /* pic1.webp */; };
+		6CBC229D235E1C6400769420 /* pic5.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2290235E1C6400769420 /* pic5.webp */; };
+		6CBC229E235E1C6400769420 /* pic5.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2290235E1C6400769420 /* pic5.webp */; };
+		6CBC229F235E1C6400769420 /* pic6.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2291235E1C6400769420 /* pic6.webp */; };
+		6CBC22A0235E1C6400769420 /* pic6.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2291235E1C6400769420 /* pic6.webp */; };
+		6CBC22A1235E1C6400769420 /* pic2.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2292235E1C6400769420 /* pic2.webp */; };
+		6CBC22A2235E1C6400769420 /* pic2.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2292235E1C6400769420 /* pic2.webp */; };
+		6CBC22A3235E1C6400769420 /* pic7.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2293235E1C6400769420 /* pic7.webp */; };
+		6CBC22A4235E1C6400769420 /* pic7.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2293235E1C6400769420 /* pic7.webp */; };
+		6CBC22A5235E1C6400769420 /* pic8.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2294235E1C6400769420 /* pic8.webp */; };
+		6CBC22A6235E1C6400769420 /* pic8.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2294235E1C6400769420 /* pic8.webp */; };
+		6CBC22A7235E1C6400769420 /* pic10.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2295235E1C6400769420 /* pic10.webp */; };
+		6CBC22A8235E1C6400769420 /* pic10.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2295235E1C6400769420 /* pic10.webp */; };
+		6CBC22A9235E1C6400769420 /* pic9.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2296235E1C6400769420 /* pic9.webp */; };
+		6CBC22AA235E1C6400769420 /* pic9.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC2296235E1C6400769420 /* pic9.webp */; };
+		6CBC22B1235E2D7700769420 /* libRNWhatsAppStickers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC22B0235E2D5200769420 /* libRNWhatsAppStickers.a */; };
+		6CBC22B5235E2DF600769420 /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC22B4235E2DF600769420 /* empty.swift */; };
+		6CBC22B6235E2DF600769420 /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC22B4235E2DF600769420 /* empty.swift */; };
+		6CBC22B8235E2E7200769420 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC22B7235E2E7200769420 /* WebP.framework */; };
+		6CBC22B9235E2E7200769420 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBC22B7235E2E7200769420 /* WebP.framework */; };
+		BC2A6EFA8C21C122C6E5A72A /* libPods-WAStickers-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ED91E5974778CA11705084 /* libPods-WAStickers-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +70,27 @@
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "WAStickers-tvOS";
 		};
+		6CBC22AF235E2D5200769420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CBC22AB235E2D5200769420 /* RNWhatsAppStickers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNWhatsAppStickers;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CBC226D235E02A700769420 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -53,20 +106,43 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WAStickers/main.m; sourceTree = "<group>"; };
 		1772D6740F296D31BE077082 /* Pods-WAStickersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickersTests.debug.xcconfig"; path = "Target Support Files/Pods-WAStickersTests/Pods-WAStickersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FB32E9D585EB77E4E8D7F01 /* Pods-WAStickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickers.debug.xcconfig"; path = "Target Support Files/Pods-WAStickers/Pods-WAStickers.debug.xcconfig"; sourceTree = "<group>"; };
-		24E87243A9B0646B34F75B1D /* libPods-WAStickers-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickers-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		257834AA759AC5AC993236DB /* libPods-WAStickers-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickers-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* WAStickers-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAStickers-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* WAStickers-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WAStickers-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A5009D40245D0027A4365A /* Pods-WAStickers-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickers-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-WAStickers-tvOSTests/Pods-WAStickers-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A43CF3D80EBA4691F8EE2F9 /* libPods-WAStickersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E26FCFD50F154E3259C58A3 /* libPods-WAStickersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5096215FEEA257FBF5264132 /* Pods-WAStickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickers.release.xcconfig"; path = "Target Support Files/Pods-WAStickers/Pods-WAStickers.release.xcconfig"; sourceTree = "<group>"; };
+		61ED91E5974778CA11705084 /* libPods-WAStickers-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickers-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		662140BD51393A86A469E082 /* Pods-WAStickers-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickers-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-WAStickers-tvOS/Pods-WAStickers-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		926E59775A393738DC8AAB11 /* libPods-WAStickers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBC225A235E020F00769420 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CBC225C235E021F00769420 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6CBC225E235E022A00769420 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6CBC2260235E023400769420 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6CBC2262235E023F00769420 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6CBC2264235E024800769420 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6CBC2266235E025100769420 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6CBC2268235E025A00769420 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6CBC228D235E1C6300769420 /* pic4.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic4.webp; sourceTree = "<group>"; };
+		6CBC228E235E1C6300769420 /* pic3.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic3.webp; sourceTree = "<group>"; };
+		6CBC228F235E1C6400769420 /* pic1.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic1.webp; sourceTree = "<group>"; };
+		6CBC2290235E1C6400769420 /* pic5.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic5.webp; sourceTree = "<group>"; };
+		6CBC2291235E1C6400769420 /* pic6.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic6.webp; sourceTree = "<group>"; };
+		6CBC2292235E1C6400769420 /* pic2.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic2.webp; sourceTree = "<group>"; };
+		6CBC2293235E1C6400769420 /* pic7.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic7.webp; sourceTree = "<group>"; };
+		6CBC2294235E1C6400769420 /* pic8.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic8.webp; sourceTree = "<group>"; };
+		6CBC2295235E1C6400769420 /* pic10.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic10.webp; sourceTree = "<group>"; };
+		6CBC2296235E1C6400769420 /* pic9.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic9.webp; sourceTree = "<group>"; };
+		6CBC22AB235E2D5200769420 /* RNWhatsAppStickers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNWhatsAppStickers.xcodeproj; path = "../node_modules/react-native-whatsapp-stickers/ios/RNWhatsAppStickers.xcodeproj"; sourceTree = "<group>"; };
+		6CBC22B2235E2DF500769420 /* WAStickers-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAStickers-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CBC22B3235E2DF500769420 /* WAStickers-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAStickers-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CBC22B4235E2DF600769420 /* empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.swift; sourceTree = "<group>"; };
+		6CBC22B7235E2E7200769420 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		99494B9384AE64D185E69A14 /* Pods-WAStickers-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickers-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-WAStickers-tvOSTests/Pods-WAStickers-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC63EA5BB27066A19773397A /* Pods-WAStickersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickersTests.release.xcconfig"; path = "Target Support Files/Pods-WAStickersTests/Pods-WAStickersTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8A1D5FC9BEEB23600E68EFC /* Pods-WAStickers-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStickers-tvOS.release.xcconfig"; path = "Target Support Files/Pods-WAStickers-tvOS/Pods-WAStickers-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E77A98DBC50F1831018EE289 /* libPods-WAStickers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F8F7BCEEA01D7B7B4B3AE609 /* libPods-WAStickers-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStickers-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6729F2D17D25C094D6CF40 /* libPods-WAStickersTests.a in Frameworks */,
+				0C00F13EEAAD9394B1E8D0E6 /* libPods-WAStickersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +158,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6304FD2BE681FFE49DAEF675 /* libPods-WAStickers.a in Frameworks */,
+				6CBC22B1235E2D7700769420 /* libRNWhatsAppStickers.a in Frameworks */,
+				6CBC225F235E022A00769420 /* QuartzCore.framework in Frameworks */,
+				6CBC2265235E024800769420 /* Accelerate.framework in Frameworks */,
+				6CBC2263235E023F00769420 /* ImageIO.framework in Frameworks */,
+				6CBC225B235E020F00769420 /* UIKit.framework in Frameworks */,
+				6CBC2267235E025100769420 /* MobileCoreServices.framework in Frameworks */,
+				6CBC225D235E021F00769420 /* CoreFoundation.framework in Frameworks */,
+				6CBC2269235E026400769420 /* libz.tbd in Frameworks */,
+				6CBC2261235E023400769420 /* AssetsLibrary.framework in Frameworks */,
+				6CBC22B8235E2E7200769420 /* WebP.framework in Frameworks */,
+				0777E368972946B25BA59C6F /* libPods-WAStickers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +176,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC028EE0953CEBA3780D7BE /* libPods-WAStickers-tvOS.a in Frameworks */,
+				6CBC22B9235E2E7200769420 /* WebP.framework in Frameworks */,
+				BC2A6EFA8C21C122C6E5A72A /* libPods-WAStickers-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C83485E55ACA9DEEE6A1751 /* libPods-WAStickers-tvOSTests.a in Frameworks */,
+				39DD1746D8FDB9BE1239ED53 /* libPods-WAStickers-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +221,6 @@
 				1772D6740F296D31BE077082 /* Pods-WAStickersTests.debug.xcconfig */,
 				BC63EA5BB27066A19773397A /* Pods-WAStickersTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,19 +241,54 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CBC22B7235E2E7200769420 /* WebP.framework */,
+				6CBC2268235E025A00769420 /* libz.tbd */,
+				6CBC2266235E025100769420 /* MobileCoreServices.framework */,
+				6CBC2264235E024800769420 /* Accelerate.framework */,
+				6CBC2262235E023F00769420 /* ImageIO.framework */,
+				6CBC2260235E023400769420 /* AssetsLibrary.framework */,
+				6CBC225E235E022A00769420 /* QuartzCore.framework */,
+				6CBC225C235E021F00769420 /* CoreFoundation.framework */,
+				6CBC225A235E020F00769420 /* UIKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				926E59775A393738DC8AAB11 /* libPods-WAStickers.a */,
-				24E87243A9B0646B34F75B1D /* libPods-WAStickers-tvOS.a */,
-				F8F7BCEEA01D7B7B4B3AE609 /* libPods-WAStickers-tvOSTests.a */,
-				4A43CF3D80EBA4691F8EE2F9 /* libPods-WAStickersTests.a */,
+				E77A98DBC50F1831018EE289 /* libPods-WAStickers.a */,
+				61ED91E5974778CA11705084 /* libPods-WAStickers-tvOS.a */,
+				257834AA759AC5AC993236DB /* libPods-WAStickers-tvOSTests.a */,
+				3E26FCFD50F154E3259C58A3 /* libPods-WAStickersTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CBC226E235E1C0800769420 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6CBC228F235E1C6400769420 /* pic1.webp */,
+				6CBC2292235E1C6400769420 /* pic2.webp */,
+				6CBC228E235E1C6300769420 /* pic3.webp */,
+				6CBC228D235E1C6300769420 /* pic4.webp */,
+				6CBC2290235E1C6400769420 /* pic5.webp */,
+				6CBC2291235E1C6400769420 /* pic6.webp */,
+				6CBC2293235E1C6400769420 /* pic7.webp */,
+				6CBC2294235E1C6400769420 /* pic8.webp */,
+				6CBC2296235E1C6400769420 /* pic9.webp */,
+				6CBC2295235E1C6400769420 /* pic10.webp */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6CBC22AC235E2D5200769420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBC22B0235E2D5200769420 /* libRNWhatsAppStickers.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				6CBC22AB235E2D5200769420 /* RNWhatsAppStickers.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -175,12 +296,16 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6CBC22B4235E2DF600769420 /* empty.swift */,
+				6CBC226E235E1C0800769420 /* Assets */,
 				13B07FAE1A68108700A75B9A /* WAStickers */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* WAStickersTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				09CAAE3FA0F024B0919DBE47 /* Pods */,
+				6CBC22B2235E2DF500769420 /* WAStickers-Bridging-Header.h */,
+				6CBC22B3235E2DF500769420 /* WAStickers-tvOS-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -230,6 +355,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				6CBC226D235E02A700769420 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,8 +418,12 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1100;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -308,12 +438,19 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6CBC22AC235E2D5200769420 /* Products */;
+					ProjectRef = 6CBC22AB235E2D5200769420 /* RNWhatsAppStickers.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* WAStickers */,
@@ -323,6 +460,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6CBC22B0235E2D5200769420 /* libRNWhatsAppStickers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNWhatsAppStickers.a;
+			remoteRef = 6CBC22AF235E2D5200769420 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -336,8 +483,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CBC229F235E1C6400769420 /* pic6.webp in Resources */,
+				6CBC2299235E1C6400769420 /* pic3.webp in Resources */,
+				6CBC22A9235E1C6400769420 /* pic9.webp in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6CBC22A1235E1C6400769420 /* pic2.webp in Resources */,
+				6CBC229D235E1C6400769420 /* pic5.webp in Resources */,
+				6CBC22A3235E1C6400769420 /* pic7.webp in Resources */,
+				6CBC229B235E1C6400769420 /* pic1.webp in Resources */,
+				6CBC22A5235E1C6400769420 /* pic8.webp in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6CBC22A7235E1C6400769420 /* pic10.webp in Resources */,
+				6CBC2297235E1C6400769420 /* pic4.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +502,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CBC22A4235E1C6400769420 /* pic7.webp in Resources */,
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				6CBC2298235E1C6400769420 /* pic4.webp in Resources */,
+				6CBC229E235E1C6400769420 /* pic5.webp in Resources */,
+				6CBC22A2235E1C6400769420 /* pic2.webp in Resources */,
+				6CBC22A8235E1C6400769420 /* pic10.webp in Resources */,
+				6CBC22A6235E1C6400769420 /* pic8.webp in Resources */,
+				6CBC229C235E1C6400769420 /* pic1.webp in Resources */,
+				6CBC22AA235E1C6400769420 /* pic9.webp in Resources */,
+				6CBC229A235E1C6400769420 /* pic3.webp in Resources */,
+				6CBC22A0235E1C6400769420 /* pic6.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +697,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				6CBC22B5235E2DF600769420 /* empty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +707,7 @@
 			files = (
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+				6CBC22B6235E2DF600769420 /* empty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +751,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1772D6740F296D31BE077082 /* Pods-WAStickersTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -605,6 +775,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC63EA5BB27066A19773397A /* Pods-WAStickersTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = WAStickersTests/Info.plist;
@@ -625,11 +796,43 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FB32E9D585EB77E4E8D7F01 /* Pods-WAStickers.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../node_modules/react-native-whatsapp-stickers/ios\"/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WAStickers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTActionSheet\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\n$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\n$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\n$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\n$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\n$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -637,6 +840,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WAStickers;
+				SWIFT_OBJC_BRIDGING_HEADER = "WAStickers-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -645,10 +851,42 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5096215FEEA257FBF5264132 /* Pods-WAStickers.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../node_modules/react-native-whatsapp-stickers/ios\"/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WAStickers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTActionSheet\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -656,6 +894,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WAStickers;
+				SWIFT_OBJC_BRIDGING_HEADER = "WAStickers-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -667,11 +907,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "WAStickers-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -683,6 +928,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.WAStickers-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WAStickers-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -695,11 +943,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "WAStickers-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -711,6 +964,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.WAStickers-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WAStickers-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -720,6 +975,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33A5009D40245D0027A4365A /* Pods-WAStickers-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -747,6 +1003,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99494B9384AE64D185E69A14 /* Pods-WAStickers-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
