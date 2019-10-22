@@ -2,13 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
 import RNWhatsAppStickers from 'react-native-whatsapp-stickers'
 import colors from './src/values/colors'
-import StickerCard from './src/components/StickerCard'
-import stickerData from './src/values/stickerData'
-import Accordion from 'react-native-collapsible/Accordion'
+import StickerAccordion from './src/components/StickerAccordion'
 
 const App = () => {
   const [isWhatsAppAvailable, setIsWhatsAppAvailable] = useState(false)
-  const [activeSection, setActiveSection] = useState([0])
 
   useEffect(() => {
     RNWhatsAppStickers.isWhatsAppAvailable()
@@ -20,32 +17,6 @@ const App = () => {
     return RNWhatsAppStickers.send('pretoria1', 'Elon Musk #1')
   }
 
-  const renderSectionTitle = section => {
-    console.log('App, renderSectionTitle', section)
-    return (
-      <View style={{ backgroundColor: colors.primary }}>
-        <Text>Title {section.title}</Text>
-        <Text>Title {section.author}</Text>
-        <Text>Title {section.size}</Text>
-      </View>
-    )
-  }
-  const renderHeader = section => {
-    return (
-      <View>
-        <Text>Header {section.title}</Text>
-      </View>
-    )
-  }
-  const renderContent = section => {
-    return (
-      <View>
-        <Text>Content {section.data}</Text>
-      </View>
-    )
-  }
-  const updateSections = activeSection => setActiveSection(activeSection)
-
   return (
     <View
       style={{
@@ -55,16 +26,7 @@ const App = () => {
         backgroundColor: colors.background,
       }}
     >
-      <StickerCard data={stickerData[0].data} />
-      <StickerCard data={stickerData[1].data} />
-      <Accordion
-        activeSections={activeSection}
-        sections={stickerData}
-        renderSectionTitle={renderSectionTitle}
-        renderHeader={renderHeader}
-        renderContent={renderContent}
-        onChange={updateSections}
-      />
+      <StickerAccordion />
       <View style={{ alignItems: 'center' }}>
         <TouchableOpacity
           onPress={sendStickers}

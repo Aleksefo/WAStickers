@@ -21,11 +21,6 @@ const StickerCard = ({ data }) => {
   return (
     <View>
       <View style={{ flexDirection: 'row' }}>
-        <Text>Title</Text>
-        <Text>Author</Text>
-        <Text>Size</Text>
-      </View>
-      <View style={{ flexDirection: 'row' }}>
         <FlatList
           data={data}
           renderItem={({ item }) => <Item picture={item} />}
