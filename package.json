@@ -14,6 +14,7 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.2",
+    "react-native-collapsible": "^1.5.1",
     "react-native-whatsapp-stickers": "^1.2.6"
   },
   "devDependencies": {
