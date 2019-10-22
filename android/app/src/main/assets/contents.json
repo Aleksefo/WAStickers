@@ -6,6 +6,7 @@
       "name": "Elon Musk #1",
       "publisher": "Pretoria",
       "image_data_version":"1",
+      "avoid_cache":false,
       "tray_image_file": "tray_icon.png",
       "publisher_email": "aleksefo@gmail.com",
       "publisher_website": "https://aleksefo.github.io/",
@@ -13,28 +14,40 @@
       "license_agreement_website": "https://aleksefo.github.io/tos.html",
       "stickers": [
         {
-          "image_file": "Pretoria1.webp",
-          "emojis": ["✌️"]
+          "image_file": "Pretoria1.webp"
         },
         {
-          "image_file": "Pretoria2.webp",
-          "emojis": ["😍","😻"]
+          "image_file": "Pretoria2.webp"
         },
         {
-          "image_file": "Pretoria3.webp",
-          "emojis": ["😎"]
+          "image_file": "Pretoria3.webp"
         },
         {
-          "image_file": "Pretoria4.webp",
-          "emojis": ["✌️"]
+          "image_file": "Pretoria4.webp"
         },
         {
-          "image_file": "Pretoria5.webp",
-          "emojis": ["😍","😻"]
+          "image_file": "Pretoria5.webp"
         },
         {
-          "image_file": "pic6.webp",
-          "emojis": ["😎"]
+          "image_file": "Pretoria6.webp"
+        },
+        {
+          "image_file": "Pretoria7.webp"
+        },
+        {
+          "image_file": "Pretoria8.webp"
+        },
+        {
+          "image_file": "Pretoria9.webp"
+        },
+        {
+          "image_file": "Pretoria10.webp"
+        },
+        {
+          "image_file": "Pretoria11.webp"
+        },
+        {
+          "image_file": "Pretoria12.webp"
         }
       ]
     }
