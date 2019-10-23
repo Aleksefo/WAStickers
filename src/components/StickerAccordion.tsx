@@ -63,11 +63,14 @@ const StickerAccordion = props => {
       renderContent={renderContent}
       renderFooter={renderFooter}
       onChange={updateSections}
+      underlayColor={colors.chat}
+      containerStyle={st.accordion}
     />
   )
 }
 
 const st = StyleSheet.create({
+  accordion: { padding: 10 },
   sectionTitle: {
     flexDirection: 'row',
     alignItems: 'flex-end',
