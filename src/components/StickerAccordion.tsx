@@ -7,7 +7,7 @@ import StickerCard from './StickerCard'
 import Theme from '../values/Theme'
 import Sticker from './Sticker'
 
-const StickerAccordion = props => {
+const StickerAccordion = () => {
   const [activeSection, setActiveSection] = useState([0])
   const stickerSize = Math.floor(Theme.w / 6.5)
   console.log('StickerAccordion, StickerAccordion', stickerSize)
@@ -27,10 +27,7 @@ const StickerAccordion = props => {
   const renderHeader = section => {
     return (
       <View>
-        <StickerCard
-          data={section.data.slice(0, 5)}
-          isWhatsAppAvailable={props.isWhatsAppAvailable}
-        />
+        <StickerCard data={section.data.slice(0, 5)} />
       </View>
     )
   }

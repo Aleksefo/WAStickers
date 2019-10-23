@@ -3,8 +3,8 @@ import { View, StyleSheet, StatusBar } from 'react-native'
 import RNWhatsAppStickers from 'react-native-whatsapp-stickers'
 import colors from './src/values/colors'
 import StickerAccordion from './src/components/StickerAccordion'
-import Icon from 'react-native-vector-icons/AntDesign'
 import Theme from './src/values/Theme'
+import Button from './src/components/Button'
 
 const App = () => {
   const [isWhatsAppAvailable, setIsWhatsAppAvailable] = useState(false)
@@ -19,12 +19,11 @@ const App = () => {
     <View style={st.appContainer}>
       <StatusBar backgroundColor={colors.primary} barStyle="light-content" />
       <View style={st.navBar}>
-        <Icon name="hearto" size={40} color={colors.accent} />
-        <Icon
-          name="sharealt"
-          size={40}
-          color={colors.accent}
-          style={{ paddingHorizontal: 30 }}
+        <Button icon={'hearto'} onPress={console.log('App, App')} />
+        <Button
+          icon={'sharealt'}
+          onPress={console.log('App, App')}
+          style={{ marginHorizontal: 30 }}
         />
       </View>
       <StickerAccordion isWhatsAppAvailable={isWhatsAppAvailable} />
