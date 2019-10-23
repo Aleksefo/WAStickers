@@ -67,7 +67,7 @@ const StickerAccordion = () => {
 }
 
 const st = StyleSheet.create({
-  accordion: { padding: 10 },
+  accordion: { padding: 10, paddingBottom: 64 },
   sectionTitle: {
     flexDirection: 'row',
     alignItems: 'flex-end',

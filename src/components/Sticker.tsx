@@ -3,9 +3,7 @@ import { StyleSheet, Image } from 'react-native'
 import Theme from '../values/Theme'
 
 const Sticker = ({ item }) => {
-  return (
-    <Image source={{ uri: `asset:/pretoria1/${item}.webp` }} style={st.image} />
-  )
+  return <Image source={{ uri: `asset:/${item}.webp` }} style={st.image} />
 }
 
 const st = StyleSheet.create({

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, StyleSheet, StatusBar } from 'react-native'
+import { View, StyleSheet, StatusBar, ScrollView } from 'react-native'
 import RNWhatsAppStickers from 'react-native-whatsapp-stickers'
 import colors from './src/values/colors'
 import StickerAccordion from './src/components/StickerAccordion'
@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <View style={st.appContainer}>
-      <StatusBar backgroundColor={colors.primary} barStyle="light-content" />
+      <StatusBar backgroundColor={colors.primary2} barStyle="light-content" />
       <View style={st.navBar}>
         <Button icon={'hearto'} onPress={console.log('App, App')} />
         <Button
@@ -26,7 +26,9 @@ const App = () => {
           style={{ marginHorizontal: 30 }}
         />
       </View>
-      <StickerAccordion isWhatsAppAvailable={isWhatsAppAvailable} />
+      <ScrollView>
+        <StickerAccordion />
+      </ScrollView>
     </View>
   )
 }

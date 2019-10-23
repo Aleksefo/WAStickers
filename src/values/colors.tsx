@@ -1,5 +1,6 @@
 export default {
-  primary: '#075E54', // Port Gore
+  primary: '#128C7E', // Port Gore
+  primary2: '#075E54', // Port Gore
   accent: '#25D366', // Carrot Orange
   error: '#D2473C',
   success: '#34B7F1',

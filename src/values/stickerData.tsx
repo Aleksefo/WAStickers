@@ -92,7 +92,7 @@ export default [
       'muskElonMusk/MuskElonMusk37',
     ],
     title: 'Elon Musk #3',
-    author: 'Unknown',
+    author: 'Alex Fo',
     size: '0.84 MB',
   },
   {
