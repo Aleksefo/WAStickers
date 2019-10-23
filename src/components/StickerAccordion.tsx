@@ -1,20 +1,15 @@
 import React, { useState } from 'react'
-import {
-  View,
-  Text,
-  StyleSheet,
-  Image,
-  useWindowDimensions,
-} from 'react-native'
+import { View, Text, StyleSheet, Image } from 'react-native'
 import Accordion from 'react-native-collapsible/Accordion'
 import stickerData from '../values/stickerData'
 import colors from '../values/colors'
 import StickerCard from './StickerCard'
+import Theme from '../values/Theme'
+import Sticker from './Sticker'
 
 const StickerAccordion = props => {
   const [activeSection, setActiveSection] = useState([0])
-  const { width } = useWindowDimensions()
-  const stickerSize = Math.floor(width / 6.5)
+  const stickerSize = Math.floor(Theme.w / 6.5)
   console.log('StickerAccordion, StickerAccordion', stickerSize)
   const renderSectionTitle = section => {
     console.log('App, renderSectionTitle', section)
@@ -43,23 +38,13 @@ const StickerAccordion = props => {
     return (
       <View
         style={{
-          // backgroundColor: 'blue',
           flexDirection: 'row',
           flexWrap: 'wrap',
           justifyContent: 'center',
         }}
       >
-        {/*<StickerCard data={section.data.slice(5)} />*/}
         {section.data.slice(5).map(item => (
-          <Image
-            source={{ uri: `asset:/pretoria1/${item}.webp` }}
-            style={{
-              width: stickerSize,
-              height: stickerSize,
-              // backgroundColor: 'red',
-            }}
-            key={item}
-          />
+          <Sticker item={item} key={item} />
         ))}
       </View>
     )

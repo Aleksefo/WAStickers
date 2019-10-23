@@ -1,21 +1,13 @@
 import React from 'react'
-import {
-  View,
-  Text,
-  StyleSheet,
-  FlatList,
-  Image,
-  TouchableOpacity,
-  useWindowDimensions,
-} from 'react-native'
+import { View, StyleSheet, TouchableOpacity } from 'react-native'
 import Icon from 'react-native-vector-icons/AntDesign'
 import colors from '../values/colors'
 import RNWhatsAppStickers from 'react-native-whatsapp-stickers'
+import Sticker from './Sticker'
+import Theme from '../values/Theme'
 
 const StickerCard = ({ data, isWhatsAppAvailable }) => {
-  const { width } = useWindowDimensions()
-
-  const stickerSize = Math.floor(width / 6.5)
+  const stickerSize = Math.floor(Theme.w / 6.5)
 
   const sendStickers = () => {
     return RNWhatsAppStickers.send('pretoria1', 'Elon Musk #1')
@@ -24,21 +16,15 @@ const StickerCard = ({ data, isWhatsAppAvailable }) => {
   return (
     <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
       {data.map(item => (
-        <Image
-          source={{ uri: `asset:/pretoria1/${item}.webp` }}
-          style={{
-            width: stickerSize,
-            height: stickerSize,
-          }}
-          key={item}
-        />
+        <Sticker item={item} key={item} />
       ))}
       <TouchableOpacity
         onPress={sendStickers}
         hitSlop={{ top: 12, right: 12, bottom: 12, left: 12 }}
         style={{
-          width: stickerSize,
-          height: stickerSize,
+          width: stickerSize - 10,
+          height: stickerSize - 10,
+          margin: 5,
           justifyContent: 'center',
           alignItems: 'center',
         }}
