@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, StyleSheet, Image } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 import Accordion from 'react-native-collapsible/Accordion'
 import stickerData from '../values/stickerData'
 import colors from '../values/colors'
@@ -49,7 +49,7 @@ const StickerAccordion = props => {
       </View>
     )
   }
-  const renderFooter = section => {
+  const renderFooter = () => {
     return <View style={st.footer} />
   }
   const updateSections = activeSection => setActiveSection(activeSection)
