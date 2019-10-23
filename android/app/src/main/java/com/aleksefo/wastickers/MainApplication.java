@@ -1,4 +1,4 @@
-package com.wastickers;
+package com.aleksefo.wastickers;
 
 import android.app.Application;
 import android.content.Context;

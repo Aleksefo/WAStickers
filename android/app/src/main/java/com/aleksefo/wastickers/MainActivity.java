@@ -1,4 +1,4 @@
-package com.wastickers;
+package com.aleksefo.wastickers;
 
 import com.facebook.react.ReactActivity;
 
