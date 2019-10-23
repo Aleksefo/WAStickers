@@ -17,8 +17,8 @@ export default [
       'Pretoria14',
       'Pretoria15',
     ],
-    title: 'object1',
-    author: 'author1',
+    title: 'Elon Musk #1',
+    author: 'Pretoria',
     size: '100mb',
   },
   {
@@ -39,8 +39,8 @@ export default [
       'Pretoria14',
       'Pretoria15',
     ],
-    title: 'object1',
-    author: 'author1',
+    title: 'Elon Musk #1',
+    author: 'Pretoria',
     size: '100mb',
   },
 ]

@@ -29,17 +29,14 @@ const StickerCard = ({ data, isWhatsAppAvailable }) => {
           style={{
             width: stickerSize,
             height: stickerSize,
-            // flex: 1,
-            backgroundColor: 'red',
           }}
+          key={item}
         />
       ))}
       <TouchableOpacity
         onPress={sendStickers}
         hitSlop={{ top: 12, right: 12, bottom: 12, left: 12 }}
         style={{
-          backgroundColor: isWhatsAppAvailable ? colors.accent : 'gray',
-          // flex: 1,
           width: stickerSize,
           height: stickerSize,
           justifyContent: 'center',
@@ -48,9 +45,9 @@ const StickerCard = ({ data, isWhatsAppAvailable }) => {
         disabled={!isWhatsAppAvailable}
       >
         {isWhatsAppAvailable ? (
-          <Icon name="pluscircleo" size={30} color="#900" />
+          <Icon name="pluscircleo" size={30} color={colors.accent} />
         ) : (
-          <Icon name="questioncircleo" size={30} color="#900" />
+          <Icon name="questioncircleo" size={30} color={colors.accent} />
         )}
       </TouchableOpacity>
     </View>

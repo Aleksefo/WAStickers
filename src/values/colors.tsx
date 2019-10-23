@@ -7,4 +7,6 @@ export default {
   background: '#ECE5DD',
   chat: '#ECE5DD',
   white: '#ffffff',
+  disabled: '#c5c9cb',
+  textSecondary: '#555a5e',
 }
