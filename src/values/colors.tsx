@@ -4,6 +4,7 @@ export default {
   error: '#D2473C',
   success: '#34B7F1',
   text: '#000000',
-  background: '#DCF8C6',
+  background: '#ECE5DD',
+  chat: '#ECE5DD',
   white: '#ffffff',
 }
