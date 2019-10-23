@@ -7,9 +7,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "ac": "cd android && ./gradlew clean && cd -",
+    "clean": "cd android && ./gradlew clean && cd -",
     "emul": "cd ../../Library/Android/sdk/tools/ && ./emulator -avd Nexus_5X_API_25",
-    "pod": "cd ios && pod install && cd -"
+    "pod": "cd ios && pod install && cd -",
+    "bundle": "cd android && ./gradlew bundleRelease && cd -",
+    "release": "react-native run-android --variant release"
   },
   "dependencies": {
     "react": "16.9.0",

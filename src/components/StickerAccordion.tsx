@@ -10,9 +10,7 @@ import Sticker from './Sticker'
 const StickerAccordion = () => {
   const [activeSection, setActiveSection] = useState([0])
   const stickerSize = Math.floor(Theme.w / 6.5)
-  console.log('StickerAccordion, StickerAccordion', stickerSize)
   const renderSectionTitle = section => {
-    console.log('App, renderSectionTitle', section)
     return (
       <View style={st.sectionTitle}>
         <Text style={[st.sectionText, st.sectionTextPrimary]}>
