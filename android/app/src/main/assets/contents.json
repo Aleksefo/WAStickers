@@ -9,7 +9,6 @@
       "avoid_cache":false,
       "tray_image_file": "tray_icon.png",
       "publisher_email": "aleksefo@gmail.com",
-      "publisher_website": "https://aleksefo.github.io/",
       "privacy_policy_website": "https://aleksefo.github.io/privacy_policy.html",
       "license_agreement_website": "https://aleksefo.github.io/tos.html",
       "stickers": [
@@ -48,6 +47,324 @@
         },
         {
           "image_file": "Pretoria12.webp"
+        },
+        {
+          "image_file": "Pretoria13.webp"
+        },
+        {
+          "image_file": "Pretoria14.webp"
+        },
+        {
+          "image_file": "Pretoria15.webp"
+        },
+        {
+          "image_file": "Pretoria16.webp"
+        },
+        {
+          "image_file": "Pretoria17.webp"
+        },
+        {
+          "image_file": "Pretoria18.webp"
+        },
+        {
+          "image_file": "Pretoria19.webp"
+        },
+        {
+          "image_file": "Pretoria20.webp"
+        },
+        {
+          "image_file": "Pretoria21.webp"
+        },
+        {
+          "image_file": "Pretoria22.webp"
+        },
+        {
+          "image_file": "Pretoria23.webp"
+        }
+      ]
+    },
+    {
+      "identifier": "pretoria2",
+      "name": "Elon Musk #2",
+      "publisher": "Pretoria",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "tray_image_file": "tray_icon.png",
+      "publisher_email": "aleksefo@gmail.com",
+      "privacy_policy_website": "https://aleksefo.github.io/privacy_policy.html",
+      "license_agreement_website": "https://aleksefo.github.io/tos.html",
+      "stickers": [
+        {
+          "image_file": "Pretoria24.webp"
+        },
+        {
+          "image_file": "Pretoria25.webp"
+        },
+        {
+          "image_file": "Pretoria26.webp"
+        },
+        {
+          "image_file": "Pretoria27.webp"
+        },
+        {
+          "image_file": "Pretoria28.webp"
+        },
+        {
+          "image_file": "Pretoria29.webp"
+        },
+        {
+          "image_file": "Pretoria30.webp"
+        },
+        {
+          "image_file": "Pretoria31.webp"
+        },
+        {
+          "image_file": "Pretoria32.webp"
+        },
+        {
+          "image_file": "Pretoria33.webp"
+        },
+        {
+          "image_file": "Pretoria34.webp"
+        },
+        {
+          "image_file": "Pretoria35.webp"
+        },
+        {
+          "image_file": "Pretoria36.webp"
+        },
+        {
+          "image_file": "Pretoria37.webp"
+        },
+        {
+          "image_file": "Pretoria38.webp"
+        },
+        {
+          "image_file": "Pretoria39.webp"
+        },
+        {
+          "image_file": "Pretoria40.webp"
+        },
+        {
+          "image_file": "Pretoria41.webp"
+        },
+        {
+          "image_file": "Pretoria42.webp"
+        },
+        {
+          "image_file": "Pretoria43.webp"
+        },
+        {
+          "image_file": "Pretoria44.webp"
+        },
+        {
+          "image_file": "Pretoria45.webp"
+        },
+        {
+          "image_file": "Pretoria46.webp"
+        }
+      ]
+    },
+    {
+      "identifier": "muskElonMusk",
+      "name": "Elon Musk #3",
+      "publisher": "Alex Fo",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "tray_image_file": "tray_icon.png",
+      "publisher_email": "aleksefo@gmail.com",
+      "privacy_policy_website": "https://aleksefo.github.io/privacy_policy.html",
+      "license_agreement_website": "https://aleksefo.github.io/tos.html",
+      "stickers": [
+        {
+          "image_file": "MuskElonMusk1.webp"
+        },
+        {
+          "image_file": "MuskElonMusk3.webp"
+        },
+        {
+          "image_file": "MuskElonMusk4.webp"
+        },
+        {
+          "image_file": "MuskElonMusk5.webp"
+        },
+        {
+          "image_file": "MuskElonMusk6.webp"
+        },
+        {
+          "image_file": "MuskElonMusk8.webp"
+        },
+        {
+          "image_file": "MuskElonMusk9.webp"
+        },
+        {
+          "image_file": "MuskElonMusk10.webp"
+        },
+        {
+          "image_file": "MuskElonMusk11.webp"
+        },
+        {
+          "image_file": "MuskElonMusk12.webp"
+        },
+        {
+          "image_file": "MuskElonMusk13.webp"
+        },
+        {
+          "image_file": "MuskElonMusk14.webp"
+        },
+        {
+          "image_file": "MuskElonMusk15.webp"
+        },
+        {
+          "image_file": "MuskElonMusk16.webp"
+        },
+        {
+          "image_file": "MuskElonMusk18.webp"
+        },
+        {
+          "image_file": "MuskElonMusk19.webp"
+        },
+        {
+          "image_file": "MuskElonMusk21.webp"
+        },
+        {
+          "image_file": "MuskElonMusk22.webp"
+        },
+        {
+          "image_file": "MuskElonMusk23.webp"
+        },
+        {
+          "image_file": "MuskElonMusk24.webp"
+        },
+        {
+          "image_file": "MuskElonMusk25.webp"
+        },
+        {
+          "image_file": "MuskElonMusk26.webp"
+        },
+        {
+          "image_file": "MuskElonMusk27.webp"
+        },
+        {
+          "image_file": "MuskElonMusk28.webp"
+        },
+        {
+          "image_file": "MuskElonMusk29.webp"
+        },
+        {
+          "image_file": "MuskElonMusk31.webp"
+        },
+        {
+          "image_file": "MuskElonMusk32.webp"
+        },
+        {
+          "image_file": "MuskElonMusk33.webp"
+        },
+        {
+          "image_file": "MuskElonMusk37.webp"
+        }
+      ]
+    },
+    {
+      "identifier": "starmanMusk",
+      "name": "Starman Musk",
+      "publisher": "Mari Inari",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "tray_image_file": "tray_icon.png",
+      "publisher_email": "aleksefo@gmail.com",
+      "privacy_policy_website": "https://aleksefo.github.io/privacy_policy.html",
+      "license_agreement_website": "https://aleksefo.github.io/tos.html",
+      "stickers": [
+        {
+          "image_file": "StarmanMusk1.webp"
+        },
+        {
+          "image_file": "StarmanMusk2.webp"
+        },
+        {
+          "image_file": "StarmanMusk3.webp"
+        },
+        {
+          "image_file": "StarmanMusk4.webp"
+        },
+        {
+          "image_file": "StarmanMusk5.webp"
+        },
+        {
+          "image_file": "StarmanMusk6.webp"
+        },
+        {
+          "image_file": "StarmanMusk7.webp"
+        },
+        {
+          "image_file": "StarmanMusk8.webp"
+        },
+        {
+          "image_file": "StarmanMusk9.webp"
+        },
+        {
+          "image_file": "StarmanMusk10.webp"
+        },
+        {
+          "image_file": "StarmanMusk11.webp"
+        },
+        {
+          "image_file": "StarmanMusk12.webp"
+        },
+        {
+          "image_file": "StarmanMusk13.webp"
+        },
+        {
+          "image_file": "StarmanMusk14.webp"
+        },
+        {
+          "image_file": "StarmanMusk15.webp"
+        },
+        {
+          "image_file": "StarmanMusk16.webp"
+        },
+        {
+          "image_file": "StarmanMusk17.webp"
+        },
+        {
+          "image_file": "StarmanMusk18.webp"
+        },
+        {
+          "image_file": "StarmanMusk19.webp"
+        },
+        {
+          "image_file": "StarmanMusk20.webp"
+        },
+        {
+          "image_file": "StarmanMusk21.webp"
+        },
+        {
+          "image_file": "StarmanMusk22.webp"
+        },
+        {
+          "image_file": "StarmanMusk23.webp"
+        },
+        {
+          "image_file": "StarmanMusk24.webp"
+        },
+        {
+          "image_file": "StarmanMusk25.webp"
+        },
+        {
+          "image_file": "StarmanMusk26.webp"
+        },
+        {
+          "image_file": "StarmanMusk27.webp"
+        },
+        {
+          "image_file": "StarmanMusk28.webp"
+        },
+        {
+          "image_file": "StarmanMusk30.webp"
+        },
+        {
+          "image_file": "StarmanMusk31.webp"
         }
       ]
     }
