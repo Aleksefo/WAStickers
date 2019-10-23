@@ -13,10 +13,6 @@ const App = () => {
       .catch(e => console.log(e))
   }, [])
 
-  const sendStickers = () => {
-    return RNWhatsAppStickers.send('pretoria1', 'Elon Musk #1')
-  }
-
   return (
     <View
       style={{
@@ -26,19 +22,7 @@ const App = () => {
         backgroundColor: colors.background,
       }}
     >
-      <StickerAccordion />
-      <View style={{ alignItems: 'center' }}>
-        <TouchableOpacity
-          onPress={sendStickers}
-          hitSlop={{ top: 12, right: 12, bottom: 12, left: 12 }}
-          disabled={!isWhatsAppAvailable}
-          style={{
-            backgroundColor: isWhatsAppAvailable ? colors.accent : 'gray',
-          }}
-        >
-          {isWhatsAppAvailable ? <Text>Click Me</Text> : <Text>Not</Text>}
-        </TouchableOpacity>
-      </View>
+      <StickerAccordion isWhatsAppAvailable={isWhatsAppAvailable} />
     </View>
   )
 }
