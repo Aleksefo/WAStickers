@@ -4,9 +4,9 @@ import RNWhatsAppStickers from 'react-native-whatsapp-stickers'
 import Sticker from './Sticker'
 import Button from './Button'
 
-const StickerCard = ({ data }) => {
+const StickerCard = ({ data, title, identifier }) => {
   const sendStickers = () => {
-    return RNWhatsAppStickers.send('pretoria1', 'Elon Musk #1')
+    return RNWhatsAppStickers.send(identifier, title)
   }
 
   return (

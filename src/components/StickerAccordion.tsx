@@ -4,12 +4,10 @@ import Accordion from 'react-native-collapsible/Accordion'
 import stickerData from '../values/stickerData'
 import colors from '../values/colors'
 import StickerCard from './StickerCard'
-import Theme from '../values/Theme'
 import Sticker from './Sticker'
 
 const StickerAccordion = () => {
   const [activeSection, setActiveSection] = useState([0])
-  const stickerSize = Math.floor(Theme.w / 6.5)
   const renderSectionTitle = section => {
     return (
       <View style={st.sectionTitle}>
@@ -24,20 +22,16 @@ const StickerAccordion = () => {
   }
   const renderHeader = section => {
     return (
-      <View>
-        <StickerCard data={section.data.slice(0, 5)} />
-      </View>
+      <StickerCard
+        data={section.data.slice(0, 5)}
+        identifier={section.identifier}
+        title={section.title}
+      />
     )
   }
   const renderContent = section => {
     return (
-      <View
-        style={{
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          justifyContent: 'center',
-        }}
-      >
+      <View style={st.contentContainer}>
         {section.data.slice(5).map(item => (
           <Sticker item={item} key={item} />
         ))}
@@ -79,6 +73,11 @@ const st = StyleSheet.create({
     width: '100%',
     alignSelf: 'center',
     marginTop: 5,
+  },
+  contentContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
   },
 })
 

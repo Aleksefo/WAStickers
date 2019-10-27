@@ -25,8 +25,9 @@ export default [
       'pretoria1/Pretoria22',
       'pretoria1/Pretoria23',
     ],
-    title: 'Elon Musk #2',
+    title: 'Elon Musk #1',
     author: 'Pretoria',
+    identifier: 'pretoria1',
     size: '0.56 MB',
   },
   {
@@ -55,8 +56,9 @@ export default [
       'pretoria2/Pretoria45',
       'pretoria2/Pretoria46',
     ],
-    title: 'Elon Musk #1',
+    title: 'Elon Musk #2',
     author: 'Pretoria',
+    identifier: 'pretoria2',
     size: '0.6 MB',
   },
   {
@@ -93,6 +95,7 @@ export default [
     ],
     title: 'Elon Musk #3',
     author: 'Alex Fo',
+    identifier: 'muskElonMusk',
     size: '0.84 MB',
   },
   {
@@ -130,6 +133,7 @@ export default [
     ],
     title: 'Starman Musk',
     author: 'Mari Inari',
+    identifier: 'starmanMusk',
     size: '1.4 MB',
   },
 ]
