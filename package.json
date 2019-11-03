@@ -8,12 +8,15 @@
     "start": "react-native start",
     "test": "jest",
     "clean": "cd android && ./gradlew clean && cd -",
-    "emul": "cd ../../Library/Android/sdk/tools/ && ./emulator -avd Nexus_5X_API_25",
+    "emul": "cd ../../Library/Android/sdk/tools/ && ./emulator -avd Nexus_5X_API_25 -no-snapshot",
     "pod": "cd ios && pod install && cd -",
     "bundle": "cd android && ./gradlew bundleRelease && cd -",
     "release": "react-native run-android --variant release"
   },
   "dependencies": {
+    "appcenter": "^2.5.0",
+    "appcenter-analytics": "^2.5.0",
+    "appcenter-crashes": "^2.5.0",
     "react": "16.9.0",
     "react-native": "0.61.2",
     "react-native-collapsible": "^1.5.1",
