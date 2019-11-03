@@ -6,7 +6,7 @@ import colors from '../values/colors'
 import StickerCard from './StickerCard'
 import Sticker from './Sticker'
 
-const StickerAccordion = () => {
+const StickerAccordion = props => {
   const [activeSection, setActiveSection] = useState([0])
   const renderSectionTitle = section => {
     return (
@@ -26,6 +26,7 @@ const StickerAccordion = () => {
         data={section.data.slice(0, 5)}
         identifier={section.identifier}
         title={section.title}
+        isWhatsAppAvailable={props.isWhatsAppAvailable}
       />
     )
   }

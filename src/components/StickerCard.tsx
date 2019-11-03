@@ -4,7 +4,7 @@ import RNWhatsAppStickers from 'react-native-whatsapp-stickers'
 import Sticker from './Sticker'
 import Button from './Button'
 
-const StickerCard = ({ data, title, identifier }) => {
+const StickerCard = ({ data, title, identifier, isWhatsAppAvailable }) => {
   const sendStickers = () => {
     return RNWhatsAppStickers.send(identifier, title)
   }
@@ -14,7 +14,11 @@ const StickerCard = ({ data, title, identifier }) => {
       {data.map(item => (
         <Sticker item={item} key={item} />
       ))}
-      <Button icon={'pluscircleo'} onPress={sendStickers} />
+      <Button
+        icon={isWhatsAppAvailable ? 'pluscircleo' : 'exclamationcircleo'}
+        onPress={sendStickers}
+        disabled={!isWhatsAppAvailable}
+      />
     </View>
   )
 }

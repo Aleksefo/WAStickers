@@ -4,13 +4,18 @@ import Icon from 'react-native-vector-icons/AntDesign'
 import colors from '../values/colors'
 import Theme from '../values/Theme'
 
-const Button = ({ onPress, icon, style = {} }) => (
+const Button = ({ onPress, icon, style = {}, disabled }) => (
   <TouchableOpacity
     onPress={onPress}
     hitSlop={{ top: 12, right: 12, bottom: 12, left: 12 }}
     style={[st.button, style]}
+    disabled={disabled}
   >
-    <Icon name={icon} size={40} color={colors.accent} />
+    <Icon
+      name={icon}
+      size={40}
+      color={disabled ? colors.error : colors.accent}
+    />
   </TouchableOpacity>
 )
 
