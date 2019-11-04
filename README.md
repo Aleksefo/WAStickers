@@ -1,4 +1,4 @@
-# WAStickers
+# ELON MUSK STICKERS FOR WHATSAPP
 
 An app to provide multiple sticker packs for WhatsApp featuring the cuteness of Elon Musk.
 
