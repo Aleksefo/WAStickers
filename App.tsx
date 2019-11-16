@@ -6,14 +6,18 @@ import StickerAccordion from './src/components/StickerAccordion'
 import Theme from './src/values/Theme'
 import Button from './src/components/Button'
 import Rate from 'react-native-rate'
+import Analytics from 'appcenter-analytics'
 
 const App = () => {
   const [isWhatsAppAvailable, setIsWhatsAppAvailable] = useState(false)
 
   useEffect(() => {
     RNWhatsAppStickers.isWhatsAppAvailable()
-      .then(isWhatsAppAvailable => setIsWhatsAppAvailable(isWhatsAppAvailable))
-      .catch(e => console.log(e))
+      .then(isWhatsAppAvailable => {
+        setIsWhatsAppAvailable(isWhatsAppAvailable)
+        Analytics.trackEvent('The app was opened')
+      })
+      .catch(e => Analytics.trackEvent('WA not available ' + e))
   }, [])
 
   return (
@@ -28,8 +32,7 @@ const App = () => {
             }
             Rate.rate(options, success => {
               if (success) {
-                // this technically only tells us if the user successfully went to the Review Page. Whether they actually did anything, we do not know.
-                // console.log('App, rated?')
+                Analytics.trackEvent('RateUs button clicked')
               }
             })
           }}

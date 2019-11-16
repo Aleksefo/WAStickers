@@ -1,3 +1,4 @@
+import Analytics from 'appcenter-analytics'
 import React, { useState } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import Accordion from 'react-native-collapsible/Accordion'
@@ -42,7 +43,10 @@ const StickerAccordion = props => {
   const renderFooter = () => {
     return <View style={st.footer} />
   }
-  const updateSections = activeSection => setActiveSection(activeSection)
+  const updateSections = activeSection => {
+    Analytics.trackEvent('Section expanded ' + activeSection)
+    setActiveSection(activeSection)
+  }
 
   return (
     <Accordion
