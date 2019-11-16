@@ -5085,6 +5085,11 @@ react-native-collapsible@^1.5.1:
   dependencies:
     prop-types "^15.6.2"
 
+react-native-rate@^1.1.10:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/react-native-rate/-/react-native-rate-1.1.10.tgz#278098fad536fba71fdedb6aab71278aa0946ced"
+  integrity sha512-07L5923RpL+AdnsZCQSkiMbRi/7N/OJtZ6AWAl5bZyhncDD7L1ap94H3jtV7uFW5WGBNxMnGiC4fPLzn426mMw==
+
 react-native-vector-icons@^6.6.0:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-6.6.0.tgz#66cf004918eb05d90778d64bd42077c1800d481b"
