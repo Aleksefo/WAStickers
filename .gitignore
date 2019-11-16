@@ -64,3 +64,4 @@ buck-out/
 /ios/Pods/
 
 appcenter-config.json
+gradle.properties
