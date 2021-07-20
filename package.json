@@ -18,7 +18,7 @@
     "appcenter-analytics": "^2.5.0",
     "appcenter-crashes": "^2.5.0",
     "react": "16.9.0",
-    "react-native": "0.61.2",
+    "react-native": "0.62.3",
     "react-native-collapsible": "^1.5.1",
     "react-native-rate": "^1.1.10",
     "react-native-vector-icons": "^6.6.0",
